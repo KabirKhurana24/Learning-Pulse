@@ -1,0 +1,32 @@
+LEARNING PULSE — TEACHER WORKSPACE
+
+THIS IS THE ACTUAL VITE + REACT APP.
+The demo is an option inside the app's login screen. There is no separate HTML demo.
+
+HOW TO RUN ON WINDOWS
+1. Install Node.js 22 LTS (22.12 or newer) from https://nodejs.org/.
+   Node.js 20.19+ is also supported.
+2. Extract the complete ZIP to a normal folder (not inside the ZIP preview).
+3. Double-click run.bat.
+4. On the first run, the script installs the app dependencies. Internet access is
+   required for this one-time installation.
+5. Vite opens the app in your browser at http://localhost:5173.
+6. Leave the black terminal window open while using the app.
+
+INSIDE THE APP
+- Continue to my workspace: opens your browser-local workspace where you can
+  import your own student roster and assessment results.
+- Explore demo workspace: loads fictional sample data into the same app so you
+  can try the dashboard, classrooms, student insights and learning groups.
+- Create an account: creates a local teacher profile for this prototype.
+
+DATA IMPORT
+- Import student roster: CSV or XLSX.
+- Import assessment results: CSV or XLSX.
+- Supports long-format assessment rows and wide-format marksheets.
+- Data stays in this browser's local storage; it is not sent to a server.
+
+IMPORTANT
+This is a local MVP. The login/profile flow is a browser-only preview, not real
+server authentication. Do not use identifiable student information until the
+app has secure backend storage, access controls, audit logging and consent flows.
